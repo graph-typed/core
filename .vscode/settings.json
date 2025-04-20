@@ -1,0 +1,16 @@
+{
+  "editor.tabSize": 2,
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "files.exclude": {
+    "node_modules": true, // Hide node_modules from the file explorer
+    "dist": true // Hide the dist folder from the file explorer
+  },
+  "search.exclude": {
+    "node_modules": true, // Exclude node_modules from search
+    "dist": true // Exclude the dist folder from search
+  }
+}
